@@ -1,6 +1,6 @@
 
 const PAGE_PATH = "../html/"
-const PAGES = ["home", "dice"]
+const PAGES = ["dice"]
 
 function dispatch_page() {
     get_current_page((page) => {

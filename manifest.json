@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "A hub for various DM tools (in development).",
   "manifest_version": 2,
-  "permissions": ["activeTab", "tabs", "storage", "<all_urls>"],
+  "permissions": ["storage"],
   "browser_action": {
     "default_popup": "html/dispatcher.html",
     "default_icon": {
