@@ -1,0 +1,22 @@
+{
+  "name": "DM Tools",
+  "version": "1.0",
+  "description": "A hub for various DM tools (in development).",
+  "manifest_version": 2,
+  "permissions": ["activeTab", "tabs", "storage", "<all_urls>"],
+  "browser_action": {
+    "default_popup": "html/dispatcher.html",
+    "default_icon": {
+      "16": "images/logo16t.png",
+      "32": "images/logo32.png",
+      "48": "images/logo48t.png",
+      "128": "images/logo128.png"
+    }
+  },
+  "icons": {
+    "16": "images/logo16t.png",
+    "32": "images/logo32.png",
+    "48": "images/logo48t.png",
+    "128": "images/logo128.png"
+  }
+}

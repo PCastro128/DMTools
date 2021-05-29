@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DM Tools</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../imports/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../imports/jquery-3.4.1.min.js"></script>
+    <script src="../imports/popper.min.js"></script>
+    <script src="../imports/bootstrap.min.js"></script>
+  </head>
+  <body class="pb-4">
+    <div class="p-3 h4 header text-center">Advanced Dice Roller</div>
+
+    <h5 class="ml-3 mr-3 mt-3">Roll multiple checks at once</h5>
+
+
+    <div class="ml-3 mr-3">
+
+      <div class="form-inline pl-1 pt-1">
+        <div class="form-group" style="width: 20%">
+          <label for="dc-label" hidden>Set DC</label>
+          <input id="dc-label" class="form-control form-control-sm form-control-plaintext" value="Set DC">
+        </div>
+        <div class="form-group" style="width: 20%">
+          <label for="dc" hidden>Set DC</label>
+          <input id="dc" type="number" class="form-control form-control-sm" placeholder="DC">
+        </div>
+        <div class="form-group mr-0 ml-1">
+          <button class="btn btn-sm btn-link text-danger" id="clearDCButton">No DC</button>
+        </div>
+      </div>
+      <div class="d-flex justify-content-start mb-2">
+        <div class="custom-checkbox" id="allowCriticals"></div>
+        <span class="checkbox-label">Allow criticals</span>
+      </div>
+
+    </div>
+
+    <div id="groupContainer">
+
+    </div>
+
+    <div class="text-center">
+      <button class="btn btn-success" id="addRollGroupButton">Add a Group</button>
+      <button class="btn btn-primary" id="rollDiceButton">Roll the Dice!</button>
+      <button class="btn btn-outline-secondary" id="clearResultsButton">Clear</button>
+    </div>
+
+
+    <script type="application/javascript" src="../js/dice.js"></script>
+  </body>
+</html>
