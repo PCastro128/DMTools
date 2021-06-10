@@ -1,5 +1,5 @@
 
-const PAGE_PATH = "../html/"
+const PAGE_PATH = "/html/"
 const PAGES = ["dice"]
 
 function dispatch_page() {
