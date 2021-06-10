@@ -1,6 +1,6 @@
 {
   "name": "DM Tools",
-  "version": "1.0",
+  "version": "1.1",
   "description": "A hub for various DM tools (in development).",
   "manifest_version": 2,
   "permissions": ["storage"],
